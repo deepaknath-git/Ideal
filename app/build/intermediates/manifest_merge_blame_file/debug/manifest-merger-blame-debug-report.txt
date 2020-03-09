@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.transaktsdk.ideal_demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:6:5-8:35
+14        android:name="android.hardware.camera"
+14-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:7:9-47
+15        android:required="true" />
+15-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:8:9-32
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:12:5-70
+16-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:12:19-67
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:14:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:TransaktSDK-3.1.5:] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\c357437a55ce9fc8cf5b04391320a071\jetified-TransaktSDK-3.1.5\AndroidManifest.xml:9:5-79
+19-->[:TransaktSDK-3.1.5:] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\c357437a55ce9fc8cf5b04391320a071\jetified-TransaktSDK-3.1.5\AndroidManifest.xml:9:22-76
+20
+21    <application
+21-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:16:5-43:19
+22        android:allowBackup="false"
+22-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:17:9-36
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+24-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:18:9-35
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:19:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:20:9-41
+27        android:roundIcon="@drawable/ideal"
+27-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:21:9-44
+28        android:supportsRtl="true"
+28-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:22:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:23:9-40
+31        <activity android:name="com.transaktsdk.ideal_demo.ScannerResult" />
+31-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:24:9-60
+31-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:24:19-48
+32        <activity android:name="com.transaktsdk.ideal_demo.Qrscanner" />
+32-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:25:9-47
+32-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:25:19-44
+33        <activity android:name="com.transaktsdk.ideal_demo.Success" />
+33-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:26:9-45
+33-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:26:19-42
+34        <activity android:name="com.transaktsdk.ideal_demo.UserDetails" />
+34-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:27:9-49
+34-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:27:19-46
+35        <activity android:name="com.transaktsdk.ideal_demo.help_text" />
+35-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:28:9-47
+35-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:28:19-44
+36        <activity android:name="com.transaktsdk.ideal_demo.bank_list" />
+36-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:29:9-47
+36-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:29:19-44
+37        <activity android:name="com.transaktsdk.ideal_demo.ideal_register" /> <!-- Main activity -->
+37-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:30:9-52
+37-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:30:19-49
+38        <activity android:name="com.transaktsdk.ideal_demo.MainActivity" />
+38-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:31:9-50
+38-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:31:19-47
+39        <activity android:name="com.transaktsdk.ideal_demo.Splash_Screen" >
+39-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:32:9-38:20
+39-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:32:19-48
+40            <intent-filter>
+40-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:33:13-37:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:34:17-69
+41-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:34:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:36:17-77
+43-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:36:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:40:9-42:39
+48            android:name="com.google.android.gms.vision.DEPENDENCIES"
+48-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:41:13-70
+49            android:value="barcode" />
+49-->C:\Users\Kanaka\Desktop\iDeal\app\src\main\AndroidManifest.xml:42:13-36
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\698ff89b59312b06c692d033ee238d75\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\698ff89b59312b06c692d033ee238d75\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Kanaka\.gradle\caches\transforms-2\files-2.1\698ff89b59312b06c692d033ee238d75\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+59    </application>
+60
+61</manifest>
